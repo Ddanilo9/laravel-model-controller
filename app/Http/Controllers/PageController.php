@@ -12,5 +12,4 @@ class PageController extends Controller
         // dd($movies);
         return view('show', compact('movies'));
     }
-    
 }
